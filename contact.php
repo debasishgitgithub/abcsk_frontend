@@ -2,69 +2,69 @@
 require 'layout/header.php';
 ?>
 
-  <main class="main">
+<main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title" data-aos="fade">
-      <div class="heading">
-        <div class="container">
-          <div class="row d-flex justify-content-center text-center">
-            <div class="col-lg-8">
-              <h1>Contact</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
-            </div>
+  <!-- Page Title -->
+  <div class="page-title" data-aos="fade">
+    <div class="heading">
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-lg-8">
+            <h1>Contact</h1>
+            <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
           </div>
         </div>
       </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Contact</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Page Title -->
+    </div>
+    <nav class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">Contact</li>
+        </ol>
+      </div>
+    </nav>
+  </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
 
-      <!-- <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+    <!-- <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
         <iframe style="border:0; width: 100%; height: 300px;" src="" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>End Google Maps -->
 
-      <div class="container mt-4" data-aos="fade-up" data-aos-delay="100">
+    <div class="container mt-4" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
+      <div class="row gy-4">
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>MOLLARPUR BYPASS ROAD ( Near Kisan Mandi ), MOLLARPUR, BIRBHUM, 731216,W.B</p>
-              </div>
-            </div><!-- End Info Item -->
+        <div class="col-lg-4">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Address</h3>
+              <p>MOLLARPUR BYPASS ROAD ( Near Kisan Mandi ), MOLLARPUR, BIRBHUM, 731216,W.B</p>
+            </div>
+          </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+91 96476 50728</p>
-              </div>
-            </div><!-- End Info Item -->
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Us</h3>
+              <p>+91 96476 50728</p>
+            </div>
+          </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>abcskeducation@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p>abcskeducation@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
 
-          </div>
+        </div>
 
-          <!-- <div class="col-lg-8">
+        <!-- <div class="col-lg-8">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
@@ -97,14 +97,20 @@ require 'layout/header.php';
           </div>
            -->
 
-        </div>
-
       </div>
 
-    </section><!-- /Contact Section -->
+    </div>
 
-  </main>
-  
+  </section><!-- /Contact Section -->
+
+</main>
+
+<script>
+  $(document).ready(function() {
+    alert('hi')
+  })
+</script>
+
 <?php
 require 'layout/footer.php';
 ?>
