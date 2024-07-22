@@ -8,8 +8,8 @@
         <span class="">ABCSK</span>
       </a>
       <div class="footer-contact pt-3">
-        <p>Street</p>
-        <p>City, Address</p>
+        <p>MOLLARPUR BYPASS ROAD ( Near Kisan Mandi )</p>
+        <p>MOLLARPUR,BIRBHUM,731216,W.B</p>
         <p class="mt-3"><strong>Phone:</strong> <span>+91 96476 50728</span></p>
         <p><strong>Email:</strong> <span>abcskeducation@gmail.com</span></p>
       </div>

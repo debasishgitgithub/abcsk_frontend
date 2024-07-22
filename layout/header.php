@@ -41,14 +41,26 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.php" class="active">Home</a></li>
-          <li><a href="#">About</a></li> 
+          <li><a href="#">About</a></li>
           <li><a href="#">Courses</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Notice</a></li>
+          <li><a href="#">Donation</a></li>
+          <li><a href="#">Result</a></li>
+          <li class="dropdown">
+            <a href="#"><span>Log in</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Student Log in</a></li>
+              <li><a href="#">Branch Log in</a></li>
+              <li><a href="#">Admin Log in</a></li>
+            </ul>
+          </li>
           <li><a href="#">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#">Log in</a>
+      <!-- <a class="btn-getstarted" href="#">Log in</a> -->
 
     </div>
   </header>
