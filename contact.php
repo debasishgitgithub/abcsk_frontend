@@ -107,7 +107,7 @@ require 'layout/header.php';
 
 <script>
   $(document).ready(function() {
-    alert('hi')
+    // alert('hi')
   })
 </script>
 
