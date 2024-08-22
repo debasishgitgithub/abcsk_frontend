@@ -2,7 +2,7 @@
 require 'layout/header.php';
 ?>
 <main class="main">
-  <div class="bg-primary rounded">
+  <div class="bg-primary">
     <marquee behavior="" direction="">
       <h4 class="text-white mt-3 "> * Free Admission going on ( বিনামূল্যে ভর্তি চলছে ) * Admission Helpline No : 96476 50728, 9002 121171 * </h4>
     </marquee>
