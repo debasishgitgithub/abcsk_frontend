@@ -38,6 +38,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.php" class="logo d-flex align-items-center me-auto">
+      <img src="assets/img/abcsk_logo.jpg" class="img-fluid" alt="">
         <h1 class="">ABCSK</h1>
       </a>
 

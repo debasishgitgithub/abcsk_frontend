@@ -2,10 +2,13 @@
 require 'layout/header.php';
 ?>
 <main class="main">
-
+  <div class="bg-primary rounded">
+    <marquee behavior="" direction="">
+      <h4 class="text-white mt-3 "> * Free Admission going on ( বিনামূল্যে ভর্তি চলছে ) * Admission Helpline No : 96476 50728, 9002 121171 * </h4>
+    </marquee>
+  </div>
   <!-- Hero Section -->
   <section id="hero" class="hero section">
-
     <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
     <div class="container">
@@ -24,13 +27,6 @@ require 'layout/header.php';
     <div class="container">
 
       <div class="row gy-4">
-        <div class="col-md-12">
-          <div class="bg-primary rounded">
-            <marquee behavior="" direction="">
-              <h4 class="text-white mt-3 ">  * Free Admission going on ( বিনামূল্যে ভর্তি চলছে ) * Admission Helpline No : 96476 50728, 9002 121171 * </h4>
-            </marquee>
-          </div>
-        </div>
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
           <img src="assets/img/about.jpg" class="img-fluid" alt="">
         </div>
