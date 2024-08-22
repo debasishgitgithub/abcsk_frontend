@@ -57,7 +57,7 @@
             <ul>
               <li><a href="#">Student Log in</a></li>
               <li><a href="#">Branch Log in</a></li>
-              <li><a href="#">Admin Log in</a></li>
+              <li><a href="https://abcsk.in/portal/">Admin Log in</a></li>
             </ul>
           </li>
           <li><a href="contact.php">Contact</a></li>
