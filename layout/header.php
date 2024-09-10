@@ -1,3 +1,9 @@
+<?php
+require "config/config.php";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,6 +36,21 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .loading {
+
+      display: none;
+      position: fixed;
+      z-index: 2000;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(255, 255, 255, .4) url('<?=FRONTEND_URL?>assets/img/FhHRx.gif') 50% 50% no-repeat;
+
+    }
+  </style>
 </head>
 
 <body class="index-page">
@@ -38,7 +59,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.php" class="logo d-flex align-items-center me-auto">
-      <img src="assets/img/abcsk_logo.jpg" class="img-fluid" alt="">
+        <img src="assets/img/abcsk_logo.jpg" class="img-fluid" alt="">
         <h1 class="">ABCSK</h1>
       </a>
 
@@ -47,7 +68,7 @@
           <!-- <li><a href="index.php" class="active">Home</a></li> -->
           <li><a href="index.php">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Courses</a></li>
+          <li><a href="courses.php">Courses</a></li>
           <li><a href="#">Gallery</a></li>
           <li><a href="#">Notice</a></li>
           <li><a href="#">Donation</a></li>
@@ -55,9 +76,9 @@
           <li class="dropdown">
             <a href="#"><span>Log in</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Student Log in</a></li>
-              <li><a href="#">Branch Log in</a></li>
-              <li><a href="https://abcsk.in/portal/">Admin Log in</a></li>
+              <li><a href="<?= BACKEND_URL ?>portal_login/student">Student Log in</a></li>
+              <li><a href="<?= BACKEND_URL ?>portal_login/support_admin">Branch Log in</a></li>
+              <li><a href="<?= BACKEND_URL ?>portal_login/super_admin">Admin Log in</a></li>
             </ul>
           </li>
           <li><a href="contact.php">Contact</a></li>
