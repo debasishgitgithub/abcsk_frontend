@@ -32,22 +32,7 @@ require 'layout/header.php';
 
       <div class="row gy-3" id="courseAppendPlace">
 
-        <!-- <div class="col-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-          <div class="pricing-item featured">
-            <h3 style="font-size: 1.5rem;">Business</h3>
-            <div style="font-size: 1rem;">
-              <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos a, nobis quis error praesentium enim?</p>
-              <ul style="font-size: 1rem;" class="m-0">
-                <li>Duration: 1 months</li>
-                <li>Short Name: </li>
-              </ul>
-            </div>
-            <div class="btn-wrap">
-              <a href="contact.php" class="btn-buy">Contact Us</a>
-            </div>
-          </div>
-        </div> -->
-        <!-- End courses Item -->
+     
 
       </div>
 
@@ -72,7 +57,7 @@ require 'layout/header.php';
       if (data.code == 200) {
         $("#courseAppendPlace").append(
           data.data.map((row) => {
-            return `<div class="col-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            return `<div class="col-xl-4 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
           <div class="pricing-item border">
             <h3 style="font-size: 1.5rem;">${row.full_name}</h3>
             <div style="font-size: 1rem;">
