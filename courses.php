@@ -63,7 +63,7 @@ require 'layout/header.php';
             <div style="font-size: 1rem;">
               <p class="m-0">${row.details}</p>
               <ul style="font-size: 1rem;" class="m-0">
-                <li>Duration: 1 ${row.duration_in_month}</li>
+                <li>Duration: ${row.duration_in_month} months</li>
                 <li>Short Name: ${row.short_name}</li>
               </ul>
             </div>
